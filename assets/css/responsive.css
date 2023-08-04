@@ -1,0 +1,47 @@
+@media (min-width: 1024px){
+    .hide-on-pc{
+        display: none;
+    }
+}
+/* mobile */
+@media (max-width:767px) and (min-width:320px){
+    .hide-on-mobile{
+        display: none;
+    }
+    .show-on-mobile{
+        display: block;
+    }
+}
+/* tablet */
+@media (min-width: 768px) and (max-width:1023px){
+    .hide-on-tablet{
+        display: none;
+
+    }
+    .show-on-tablet{
+        display: block;
+
+    }
+    .heading{
+        background-size: cover;
+    }
+    .heading__logo-mb-tbl{
+        position: relative;
+    }
+    .heading__logo{
+        position: absolute;
+        top: 4px;
+        left: -28px;
+    }
+}
+
+/* Mobile + tablet */
+@media (max-width: 1023px){
+    .hide-on-tablet-mobile{
+        display: none;
+
+    }
+    .show-on-tablet-mobile{
+        display: block;
+    }
+}
