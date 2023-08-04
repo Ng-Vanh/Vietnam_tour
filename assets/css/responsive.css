@@ -50,11 +50,11 @@
         text-align: center;
     }
     .submit-book{
-        left: -5px;
+        left: -305px;
+        right: -38px;
         border-bottom-left-radius: 6px;
-        right: -338px;
         border-top-right-radius: 0px;
-        top: 28px;
+        top: 103px;
     }
     .book-submit-content{
         flex-direction: row;
