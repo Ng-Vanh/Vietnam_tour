@@ -126,5 +126,8 @@
     .show-on-tablet-mobile{
         display: block;
     }
-    
+    .behavior__page-mbtl{
+        display: flex;
+        justify-content: center;
+    }
 }

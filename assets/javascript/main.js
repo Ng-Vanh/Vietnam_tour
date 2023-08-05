@@ -24,3 +24,19 @@ navbarItemsArray.forEach(function(item) {
 listIconElement.addEventListener('click', function(){
     menuMbTlElement.classList.toggle("show-on-tablet-mobile")
 })
+
+// click next-previous button
+var nextCardElement = document.querySelector('.next__page')
+var destinationCardWrapElement = document.querySelector('.destinations__card-wrap')
+
+nextCardElement.addEventListener('click', function(){
+    const scrollAmount = 240;
+    destinationCardWrapElement.scrollLeft +=scrollAmount;
+})
+
+var previousCardElement = document.querySelector('.previous__page')
+
+previousCardElement.addEventListener('click', function(){
+    const scrollAmount = 240;
+    destinationCardWrapElement.scrollLeft -=scrollAmount;
+})

@@ -23,9 +23,7 @@
     padding-right: 12px;
 }
 
-.heading__logo-name{
 
-}
 .navbar__list{
     display: flex;
     font-size: 2.3rem;
@@ -124,9 +122,9 @@
 
 
 /* heading booking */
-.book__wrap{
-    /* position: relative; */
-}
+/* .book__wrap{
+    position: relative;
+} */
 .heading__booking-wrap{
     background-color: var(--white-color);
     padding: 32px 8px;
@@ -187,4 +185,105 @@
     align-items: center;
     padding-right: 8px;
     
+}
+
+/* popular_destinations */
+/* heading */
+.destination__wrap{
+    margin-top: 100px;
+    margin-bottom: 120px;
+   
+}
+.destination__title{
+    font-size: 3.4rem;
+    font-weight: 400;
+    padding: 16px 0 24px 0;
+}
+
+.destination__content{
+    font-size: 2.2rem;
+    padding: 24px 0 16px 0;
+    color: #767E86;
+}
+.behavior__page-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 36px;
+}
+.behavior__page{
+    width: 70px;
+    height: 64px;
+    color: var(--white-color);
+    border-radius: 16px;
+}
+.behavior__page:hover{
+    cursor: pointer;
+    opacity: 0.8 ;
+}
+.behavior__page i{
+    font-size: 3.2rem;
+    line-height: 6.4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.previous__page{
+    background-color: var(--black-color);
+    margin-right:12px;
+}
+.next__page{
+    background-color: var(--background-btn);
+    margin-left: 12px;
+}
+
+/* Card */
+.destinations__card-wrap{
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    padding-bottom: 32px;
+}
+.destinations__card-wrap::-webkit-scrollbar{
+    display: none;
+}
+.destinations__card{
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: end;
+    padding-bottom: 10%;
+    transition: transform linear 0.1s;
+    will-change: transform;
+    box-shadow: 0 2px 4px var(--background-btn);
+}
+.destinations__card:hover{
+    transform: translateY(4px);
+    cursor: pointer;
+}
+
+.destinations__card-name{
+    font-size: 2.4rem;
+    padding-left: 48px;
+    font-weight: 500;
+    color: var(--white-color);
+    line-height: 3rem;
+}
+
+.destinations__card-location{
+    font-size: 1.8rem;
+    padding-left: 48px;
+    color: var(--white-color);
+    line-height: 2.4rem;
+}
+.destinations__card-location i{
+    padding-right: 12px;
+}
+
+.behavior__page-mbtl{
+    display: none;
 }
