@@ -11,6 +11,9 @@
     .show-on-mobile{
         display: block;
     }
+    *{
+        padding: 0 4px;
+    }
     .heading__logo{
         font-size: 2.5rem;
     }
@@ -34,7 +37,8 @@
         margin-top: 12px;
    }
    .heading__booking-wrap{
-        margin: 60px 20px 0 20px;
+        margin: 60px 90px 0 20px;
+        width: 64vw;
    }
    .booking__content{
         padding: 12px auto;
@@ -50,11 +54,11 @@
         text-align: center;
     }
     .submit-book{
-        left: -305px;
-        right: -38px;
+        left: -332px;
+        right: 0px;
         border-bottom-left-radius: 6px;
         border-top-right-radius: 0px;
-        top: 103px;
+        top: 120px;
     }
     .book-submit-content{
         flex-direction: row;

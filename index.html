@@ -14,7 +14,7 @@
     <link rel="icon" href="assets/img/canh-dep-viet-nam-12.jpg" type="image/x-icon">
 </head>
 <body>
-    <div class="heading">
+    <div class="heading" id="home">
         <div class="grid wide">
             <!-- Navigation -->
             <div class="row ">
@@ -27,16 +27,16 @@
                 <div class="col xl-6 md-6 sm-6 navbar-wrap">
                     <ul class="navbar__list hide-on-tablet-mobile">
                         <li class="navbar__item ">
-                            <a href="#" class="navbar__item-link">Home</a>
+                            <a href="#home" class="navbar__item-link">Home</a>
                         </li>
                         <li class="navbar__item">
-                            <a href="#" class="navbar__item-link">Explore</a>
+                            <a href="#explore" class="navbar__item-link">Explore</a>
                         </li>
                         <li class="navbar__item">
-                            <a href="#" class="navbar__item-link">Travel</a>
+                            <a href="#travel" class="navbar__item-link">Travel</a>
                         </li>
                         <li class="navbar__item">
-                            <a href="#" class="navbar__item-link">Blog</a>
+                            <a href="#blog" class="navbar__item-link">Blog</a>
                         </li>
                         <li class="navbar__item">
                             <a href="#" class="navbar__item-link">Pricing</a>
@@ -126,7 +126,7 @@
             </div>
         </div>
     </div>
-    <div class="popular_destinations">
+    <div class="popular_destinations" id="explore">
         <div class="grid wide">
             <div class="row">
                 <div class="col xl-10 md-12 sm-12 destination__wrap">
@@ -211,7 +211,7 @@
             </div>
         </div>
     </div>
-    <div class="special__offer">
+    <div class="special__offer" id="travel">
         <div class="grid wide">
             <div class="row special__offer-title-wrap">
                 <div class="col xl-4 behavior__page-wrap hide-on-tablet-mobile">
@@ -404,6 +404,50 @@
             </div>
         </div>
     </div>
+    <div class="our__blog-wrap" id ="blog">
+        <div class="grid wide">
+            <div class="row our-blog__heading-wrap">
+                <div class="col xl-12">
+                    <div class="our-blog__heading">
+                        <h1 class="our-blog__heading-header">Our Blog</h1>
+                        <hr width="120px" color="#FF7757">
+                        <p class="our-blog__heading-content">
+                            An insight the incredible experience in the world
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row our__blog-content">
+                <div class="col xl-5 md-12 sm-12">
+                    <div class="our__blog-content-img" 
+                    style="background-image: url(assets/img/hinh-nen-may-tinh-4k-10.jpg);"></div>
+                </div>
+                <div class="col xl-7 md-12 sm-12 our__blog-content-text-block-wrap">
+                    <div class="our__blog-content-text-block">
+                        <h2 class="text-block__heading">Beautiful Vietnam</h2>
+                        <p class="text-block__content">
+                            But I must explain to you how all this mistaken 
+                            idea of denouncing pleasure and praising pain was 
+                            born and I will give you a complete account of the 
+                            system and expound the actual teachings of the great 
+                            explorer of the truth, the master- builder of human happiness. 
+                            No one rejects, dislike, or avoids plasure itself, because it 
+                            is pleasure, but because those who do not know how to pursue 
+                            pleasure rationally encounter consequences that are extremly 
+                            painful. Nor again is there anyone who loves or pursues.
+                            
+                        </p>
+                        <div class="text-block__continue">
+                            <p>Read more</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <script src="assets/javascript/main.js"></script>
 </body>
 </html>
