@@ -142,4 +142,7 @@
     .gallery__img{
         padding: 16px 16px;
     }
+    .gallery__img-wrap{
+        padding: 0;
+    }
 }

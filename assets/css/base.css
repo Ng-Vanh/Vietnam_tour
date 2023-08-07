@@ -25,3 +25,12 @@ a{
     --black-color:black;
     --background-btn: #FF7757;
 }
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
