@@ -53,12 +53,13 @@
         font-size: 2.4rem;
         text-align: center;
     }
+    
     .submit-book{
-        left: -332px;
-        right: 0px;
-        border-bottom-left-radius: 6px;
-        border-top-right-radius: 0px;
-        top: 120px;
+        top: -32px;
+        right: -265px;
+        border-radius: 16px;
+        box-shadow: 2px 0px 4px green;
+        top: 33px;
     }
     .book-submit-content{
         flex-direction: row;
@@ -110,6 +111,7 @@
         right: -428px;
         width: 147px;
         height: 152px;
+        border-radius: 12px;
     }
 
     .book-submit-content{
@@ -136,5 +138,8 @@
     }
     .special__offer-heading-wrap{
         align-items: flex-start;
+    }
+    .gallery__img{
+        padding: 16px 16px;
     }
 }
