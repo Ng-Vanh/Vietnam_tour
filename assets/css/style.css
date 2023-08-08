@@ -633,8 +633,6 @@
     color: #FFC107;
 }
 
-
-
 /* Destination gallery */
 
 .gallery__heading{
@@ -680,3 +678,188 @@
     cursor: pointer;
     transform:translateX(-4px) translateY(-12px) scale(1.1);
 }
+
+/* Traveler Experience */
+.traveler{
+    margin-bottom: 144px;
+}
+
+.traveler__heading{
+    margin-top: 48px;
+    margin-bottom: 48px;
+    padding-left: 12px;
+}
+.traveler__heading-header{
+    font-size: 4.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    line-height: 5rem;
+    color: #172432;
+    padding: 16px 0;
+}
+.traveler__heading p{
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+    color: #767E86;
+    padding: 16px 0;
+}
+/* ======== */
+.traveler__card-wrap{
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+.traveler__card-wrap::-webkit-scrollbar{
+    display: none;
+}
+
+.traveler__card{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    position: relative;
+    box-shadow: 0 2px 4px var(--background-btn);
+    margin-right: 8px;
+}
+.traveler__card-avt{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    box-shadow: 0px 2px 4px var(--background-btn);
+    position: absolute;
+    top: -60px;
+    left: 40px;
+}
+.traveler__card-content{
+    background-color: #F5F6F7;
+    border-radius: 12px;
+}
+.traveler__card-content-text{
+    font-size: 1.8rem;
+    color: #767E86;
+    line-height: 2.2rem;
+    padding: 64px 40px 32px 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.traveler__card-rating{
+    padding: 0 40px 32px 40px;
+    display: flex;
+}
+.traveler__card-star{
+    margin-right: 4px;
+}
+.traveler__card-star i{
+    font-size: 2rem;
+}
+.traveler__card-name{
+    padding: 0 40px 16px 40px;
+    color: #767E86;
+    font-size: 2.4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.traveler__card-account{
+    color: #767E86;
+    padding: 0 40px 16px 40px;
+    font-size: 1.8rem;
+}
+
+/* Footer */
+
+.footer-wrap{
+    padding-bottom: 64px;
+}
+.footer{
+    background-color: #172432;
+}
+
+.footer__logo-wrap{
+    padding: 16px 8px;
+}
+
+.footer__logo{
+    display: flex;
+}
+.footer__logo i{
+    color: var(--white-color);
+    font-size: 4.2rem;
+    margin-right: 4px;
+}
+
+.footer__logo-name{
+    color: var(--white-color);
+    font-size: 4.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 5rem;
+
+}
+.footer__copy-right{
+    color: var(--white-color);
+    font-size: 1.2rem;
+    line-height: 2rem;
+    padding: 8px 0;
+}
+
+/* ---- */
+
+.footer__contact-info{
+    padding-top: 16px;
+    color: var(--white-color);
+}
+
+.footer__contact-header{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4.2rem;
+    line-height: 4rem;
+    padding-bottom: 8px;
+}
+/* .footer__contact-list{
+} */
+
+.footer__contact-item{
+    padding: 8px 0;
+    font-size: 1.4rem;
+}
+/* .item__number-phone{
+
+}
+
+.item__mail{
+
+}
+
+.item__address{
+
+} */
+
+.footer__contact-icon{
+    padding-top: 16px;
+}
+
+.footer__icon-header{
+    color: var(--white-color);
+    font-size: 4.2rem;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.footer__icon-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__icon-item{
+
+    padding: 16px 16px 16px 0;
+    
+} 
+.footer__icon-item a{
+    color: var(--white-color);
+    font-size: 2.4rem;
+}
+
+
+
+

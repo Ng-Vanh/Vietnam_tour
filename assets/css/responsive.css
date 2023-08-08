@@ -11,9 +11,9 @@
     .show-on-mobile{
         display: block;
     }
-    *{
+    /* *{
         padding: 0 4px;
-    }
+    } */
     .heading__logo{
         font-size: 2.5rem;
     }
@@ -68,6 +68,15 @@
         padding-left: 32px;
         font-size: 2.8rem;
     }
+
+    .footer-wrap{
+        text-align: center;
+    }
+    .footer__logo,
+    .footer__icon-list{
+        justify-content: center;
+    }
+
 }
 /* tablet */
 @media (min-width: 768px) and (max-width:1023px){
