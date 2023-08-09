@@ -41,3 +41,57 @@ previousCardElement.addEventListener('click', function(){
     destinationCardWrapElement.scrollLeft -=scrollAmount;
 })
 
+
+// Login___ Sign up
+
+var loginElement = document.querySelector(".login")
+var registerElement = document.querySelector(".register")
+
+
+var loginMbtl = document.querySelector(".login-mbtl")
+var registerMbtl = document.querySelector(".register-mbtl")
+
+var overlayEle = document.querySelector(".overlay")
+
+var modalEle = document.querySelector(".modal")
+var modalLogin = document.querySelector(".form__login")
+var modalRegister = document.querySelector(".form__register")
+
+var closeBtn = document.querySelectorAll(".modal__close-btn")
+
+
+loginMbtl.addEventListener("click", function(){
+    modalEle.style.display = 'block';
+    modalLogin.style.display = 'block';
+})
+registerMbtl.addEventListener("click", function(){
+    modalEle.style.display = 'block';
+    modalRegister.style.display = 'block';
+})
+
+
+loginElement.addEventListener("click", function(){
+    modalEle.style.display = 'block';
+    modalLogin.style.display = 'block';
+})
+registerElement.addEventListener("click", function(){
+    modalEle.style.display = 'block';
+    modalRegister.style.display = 'block';
+})
+
+overlayEle.addEventListener("click",function(){
+    modalEle.style.display = 'none';
+    modalLogin.style.display = 'none';
+    modalRegister.style.display = 'none';
+})
+
+
+
+for(let i = 0; i<2; i++){
+    closeBtn[i].addEventListener("click",function(){
+        modalEle.style.display = 'none';
+        modalLogin.style.display = 'none';
+        modalRegister.style.display = 'none';
+    })
+}
+
