@@ -34,3 +34,12 @@ a{
         opacity: 1;
     }
 }
+
+@keyframes growUp {
+    from{
+        scale: 0;
+    }
+    to{
+        scale: 1;
+    }
+}

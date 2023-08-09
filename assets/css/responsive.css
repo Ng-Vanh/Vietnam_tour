@@ -76,6 +76,14 @@
     .footer__icon-list{
         justify-content: center;
     }
+    .form__register{
+        width: 90vw;
+        height: 75vh;
+    }
+    .form__login{
+        width: 90vw;
+        height: 60vh;
+    }
 
 }
 /* tablet */
@@ -130,6 +138,14 @@
         padding-left:-12px ;
     }
 
+    .form__register{
+        width: 60vw;
+        height: 55vh;
+    }
+    .form__login{
+        width: 60vw;
+        height: 50vh;
+    }
 }
 
 /* Mobile + tablet */

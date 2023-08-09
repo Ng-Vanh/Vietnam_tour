@@ -40,3 +40,4 @@ previousCardElement.addEventListener('click', function(){
     const scrollAmount = 240;
     destinationCardWrapElement.scrollLeft -=scrollAmount;
 })
+
