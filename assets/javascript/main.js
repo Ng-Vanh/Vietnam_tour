@@ -22,7 +22,11 @@ navbarItemsArray.forEach(function(item) {
 
 // tablet
 listIconElement.addEventListener('click', function(){
-    menuMbTlElement.classList.toggle("show-on-tablet-mobile")
+    if(menuMbTlElement.style.display == "block"){
+        menuMbTlElement.style.display = "none";
+    }else{
+        menuMbTlElement.style.display = "block";
+    }
 })
 
 // click next-previous button
@@ -59,14 +63,16 @@ var modalRegister = document.querySelector(".form__register")
 
 var closeBtn = document.querySelectorAll(".modal__close-btn")
 
-
 loginMbtl.addEventListener("click", function(){
     modalEle.style.display = 'block';
     modalLogin.style.display = 'block';
+    menuMbTlElement.style.display = "none"
 })
 registerMbtl.addEventListener("click", function(){
     modalEle.style.display = 'block';
     modalRegister.style.display = 'block';
+    menuMbTlElement.style.display = "none"
+
 })
 
 
